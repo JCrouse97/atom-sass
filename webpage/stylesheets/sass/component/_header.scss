@@ -18,10 +18,19 @@ header{
     justify-content: space-between;
 
     #header-content-left{
-      width: 400px;
+      width: 360px;
       height: 100%;
 
-    }
+      ul{
+        display: flex;
+        justify-content: space-between;
+        li{
+          padding: 8px;
+
+          @extend %fake-link;
+        }
+      } //ul
+    } //header-content-left
     #header-content-right{
       width: 100px;
       height: 100%;
