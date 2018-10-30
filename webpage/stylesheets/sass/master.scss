@@ -4,4 +4,19 @@
 @import "helpers/reset";
 @import "helpers/typography";
 
+@import "component/placeholders";
+@import "component/header";
+
+
 // --- MASTER CONTROLS ---
+
+body{
+  height: 100vh;
+  width: 100vw;
+
+  font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 100%;
+  color: #efeae1;
+
+  background-color: #333233;
+}
