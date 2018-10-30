@@ -1,3 +1,8 @@
+// VARS
+
+$hover-transition-time: 0.2s;
+$atom-green: #81bf8c;
+
 // ***HEADER PARTIAL***
 
 header{
@@ -13,7 +18,7 @@ header{
   font-size: 0.89em;
 
   #header-content{
-    width:860px;
+    width:865px;
     height: 100%;
 
     display: flex;
@@ -28,23 +33,48 @@ header{
       ul{
         display: flex;
         justify-content: space-between;
+
         li{
           padding: 9px;
 
           @extend %fake-link;
-          transition: 0.2s;
+          transition: $hover-transition-time;
 
           &:hover{
-            color: #81bf8c;
-            transition: 0.2s;
+            color: $atom-green;
+            transition: $hover-transition-time;
           }
         } //li
       } //ul
     } //header-content-left
-    #header-content-right{
-      width: 100px;
-      height: 100%;
 
-    }
+    #header-content-right{
+      height: 100%;
+      display: flex;
+      align-items: center;
+
+      ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        width: 66px;
+
+        li{
+          @extend %fake-link;
+          display: flex;
+
+          &:hover{
+            color: $atom-green;
+          } //:hover
+
+          img{
+            position: relative;
+            top: 1px;
+
+          }
+        } //li
+      } //ul
+    } //header-content-right
   } //header-content
 } //header
