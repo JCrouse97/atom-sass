@@ -114,12 +114,18 @@
 		"oAP": "/webpage/stylesheets/media/vids/.temp",
 		"oF": 0
 		},
-	"/webpage/stylesheets/sass/component/.temp": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/webpage/stylesheets/sass/component/.temp",
-		"oF": 0
+	"/webpage/stylesheets/sass/component/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/webpage/stylesheets/sass/component/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"/webpage/stylesheets/sass/helpers/_reset.scss": {
 		"aP": 0,
