@@ -158,6 +158,16 @@ header #header-content #header-content-right ul li img {
   top: 1px;
 }
 
+#hero {
+  width: 100vw;
+}
+
+#hero #hero-content {
+  width: 865px;
+  height: 25px;
+  background-color: #ccc;
+}
+
 body {
   height: 100vh;
   width: 100vw;
