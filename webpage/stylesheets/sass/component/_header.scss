@@ -29,7 +29,7 @@ header{
         display: flex;
         justify-content: space-between;
         li{
-          padding: 8px;
+          padding: 9px;
 
           @extend %fake-link;
           transition: 0.2s;
@@ -38,7 +38,7 @@ header{
             color: #81bf8c;
             transition: 0.2s;
           }
-        }
+        } //li
       } //ul
     } //header-content-left
     #header-content-right{
