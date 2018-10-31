@@ -167,8 +167,10 @@ header #header-content #header-content-right ul li img {
 
 #hero #hero-content {
   width: 865px;
-  height: 25px;
-  background-color: #ccc;
+}
+
+#hero #hero-content #hero-content-top {
+  width: 100%;
 }
 
 body {
