@@ -105,7 +105,7 @@ header {
 }
 
 header #header-content {
-  width: 865px;
+  width: 860px;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -166,11 +166,21 @@ header #header-content #header-content-right ul li img {
 }
 
 #hero #hero-content {
-  width: 865px;
+  width: 860px;
 }
 
 #hero #hero-content #hero-content-top {
   width: 100%;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ani {
+  width: 582px;
+  background-color: #2b2a2b;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ul {
+  width: 228px;
+  margin: 50px;
 }
 
 body {
