@@ -107,6 +107,13 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/webpage/stylesheets/media/imgs/.temp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/webpage/stylesheets/media/imgs/.temp",
+		"oF": 0
+		},
 	"/webpage/stylesheets/media/imgs/atom-door-icon.svg": {
 		"ft": 2097152,
 		"miP": 0,

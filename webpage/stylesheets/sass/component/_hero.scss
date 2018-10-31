@@ -35,9 +35,26 @@ $border-style: 1px solid #4e4b4d;
             height: 25%;
             width: 100%;
             border-bottom: $border-style;
+            @include basic-flex(center, center);
+            flex-direction: column;
 
-          }
-        }
+            h1{
+              font-size: 1.4em;
+              font-weight: 500;
+              color: #eed9b7;
+              margin-bottom: 0.4em;
+            }
+
+            span{
+              font-size: 0.9em;
+              color: #eed9b777;
+            }
+
+            &:last-child{
+              border-bottom: none;
+            } //&:last-child
+          } //li
+        } //ul
       }//hero-content-top-ul
     } //hero-content-top
   } //hero-content
