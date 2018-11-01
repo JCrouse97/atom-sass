@@ -1,7 +1,5 @@
 // LOCAL VARS
 
-$border-style: 1px solid #4e4b4d;
-$hover-color: #EBAB00;
 
 // ***HERO PARTIAL***
 
@@ -37,8 +35,7 @@ $hover-color: #EBAB00;
             height: 25%;
             width: 100%;
             border-bottom: $border-style;
-            @include basic-flex(center, center);
-            flex-direction: column;
+            @include basic-flex(center, center, column);
 
             h1{
               font-size: 1.4em;
@@ -98,8 +95,7 @@ $hover-color: #EBAB00;
 
     #hero-content-bottom{
       width: 100%;
-      @include basic-flex( center, center);
-      flex-direction: column;
+      @include basic-flex( center, center, column);
 
       p{
         color: #766e63aa;
