@@ -163,6 +163,7 @@ header #header-content #header-content-right ul li img {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  flex-direction: row;
 }
 
 #hero #hero-content {
@@ -174,6 +175,7 @@ header #header-content #header-content-right ul li img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
 }
 
 #hero #hero-content #hero-content-top #hero-content-top-ani {
@@ -234,6 +236,7 @@ header #header-content #header-content-right ul li img {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
 }
 
 #hero #hero-content #hero-content-top #hero-content-top-ul ul li a div img {
@@ -284,6 +287,7 @@ header #header-content #header-content-right ul li img {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
 }
 
 #hero #hero-content #hero-content-bottom ul li {
@@ -296,6 +300,56 @@ header #header-content #header-content-right ul li img {
 }
 
 #hero #hero-content #hero-content-bottom ul li a:hover {
+  color: #EBAB00;
+}
+
+#sub-hero {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#sub-hero #sub-hero-content {
+  width: 860px;
+  margin-top: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#sub-hero #sub-hero-content h1 {
+  font-size: 2.3em;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  color: #EFDAB9;
+}
+
+#sub-hero #sub-hero-content h1 span {
+  color: #75AA9B;
+}
+
+#sub-hero #sub-hero-content ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#sub-hero #sub-hero-content ul li {
+  color: #E1BB50;
+  font-size: 1.15em;
+  letter-spacing: 0.05;
+  border: 1px solid #4e4b4d;
+  border-radius: 5px;
+  margin: 40px 10px 0px 10px;
+  padding: 8px 14px;
+}
+
+#sub-hero #sub-hero-content ul li:hover {
   color: #EBAB00;
 }
 
