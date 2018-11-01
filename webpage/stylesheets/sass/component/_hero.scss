@@ -14,11 +14,11 @@ $hover-color: #EBAB00;
 
     #hero-content-top{
       width: 100%;
-      @include basic-flex(space-between, flex-end);
+      @include basic-flex(space-between, center);
 
       #hero-content-top-ani{
         width:  582px;
-        height: 450px;
+        height: 500px;
         background-color: darken($body-Color, 3%);
       }
 
@@ -95,5 +95,46 @@ $hover-color: #EBAB00;
         } //ul
       }//hero-content-top-ul
     } //hero-content-top
+
+    #hero-content-bottom{
+      width: 100%;
+      @include basic-flex( center, center);
+      flex-direction: column;
+
+      p{
+        color: #766e63aa;
+        font-size: 0.8em;
+
+        a{
+          color: #766e63;
+
+          &:hover{
+            color: $hover-color;
+          }
+        } //a
+      } //p
+
+      ul{
+        width: 100%;
+        margin-top: 40px;
+        @include basic-flex(center, center);
+
+        li{
+          color: #8d8273;
+          font-size: 0.9em;
+
+          &:first-child{
+            margin-right: 32px;
+          }
+
+          a{
+            &:hover{
+              color: $hover-color;
+            }
+          }
+
+        } //li
+      } //ul
+    } //hero-content-bottom
   } //hero-content
 } //hero
