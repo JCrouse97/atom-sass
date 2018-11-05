@@ -1,0 +1,32 @@
+// ***SUB_FOOTER***
+
+
+#sub-footer{
+  width: 100vw;
+  height: 55px;
+  background-color: #EFEAE1;
+  @include basic-flex(center, center, row)
+
+  #sub-footer-content{
+    height: 100%;
+    width: $content-width;
+    @include basic-flex(space-between, center, row);
+
+    #sub-footer-content-left{
+      ul{
+        @include basic-flex(space-between, center, row)
+        li{
+          padding-right: 19px;
+          a{
+            color: #574D4F;
+          }
+        } //li
+      } // ul
+    } //sub-footer-content-left
+    #sub-footer-content-right{
+      img{
+        padding-top: 3px;
+      }
+    } //sub-footer-content-right
+  } // sub-footer-content
+} //sub-footer
