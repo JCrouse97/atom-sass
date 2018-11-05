@@ -17,10 +17,10 @@ footer{
 
     #footer-content-left{
       width: 50%;
-      height: 295px;
+      height: 275px;
       padding-right: 75px;
       box-sizing: border-box;
-      @include basic-flex(space-around, flex-start, column)
+      @include basic-flex(space-between, flex-start, column)
 
       div{
         @extend %button;
@@ -28,13 +28,38 @@ footer{
         &:hover{
           background-color: $hover-color;
         }
-
-      }
+      } //div
     } //footer-content-left
 
     #footer-content-right{
       width: 50%;
+      height: 275px;
+      padding-left: 75px;
+      @include basic-flex(space-between, flex-start, column)
 
+      #footer-content-uls{
+        @include basic-flex(flex-start, flex-start, row);
+        margin-bottom: 10px;
+
+        ul{
+          padding-right: 35px;
+          line-height: 1.7em;
+
+          li{
+            font-size: 0.99em;
+            letter-spacing: 0.03em;
+            color: $atom-tan;
+
+            a{
+              color: $atom-yellow;
+
+              &:hover{
+                color: $hover-color;
+              }
+            } //a
+          } //li
+        } //ul
+      } // footer-content-uls
     } //footer-content-right
   } //footer-content
 } //footer

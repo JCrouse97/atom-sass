@@ -254,7 +254,7 @@ header #header-content #header-content-right ul li img {
   width: 14px;
 }
 
-#hero #hero-content #hero-content-top #hero-content-top-ul ul li a div p {
+#hero #hero-content #hero-content-top #hero-content-top-ul ul li a div span {
   color: #333233;
   font-weight: 500;
   font-size: 1.1em;
@@ -384,11 +384,11 @@ footer #footer-content {
 
 footer #footer-content #footer-content-left {
   width: 50%;
-  height: 295px;
+  height: 275px;
   padding-right: 75px;
   box-sizing: border-box;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
   flex-direction: column;
 }
@@ -399,6 +399,39 @@ footer #footer-content #footer-content-left div:hover {
 
 footer #footer-content #footer-content-right {
   width: 50%;
+  height: 275px;
+  padding-left: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+footer #footer-content #footer-content-right #footer-content-uls {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+footer #footer-content #footer-content-right #footer-content-uls ul {
+  padding-right: 35px;
+  line-height: 1.7em;
+}
+
+footer #footer-content #footer-content-right #footer-content-uls ul li {
+  font-size: 0.99em;
+  letter-spacing: 0.03em;
+  color: #efdab9;
+}
+
+footer #footer-content #footer-content-right #footer-content-uls ul li a {
+  color: #FED153;
+}
+
+footer #footer-content #footer-content-right #footer-content-uls ul li a:hover {
+  color: #EBAB00;
 }
 
 body {
@@ -420,7 +453,7 @@ a:hover {
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.9em;
   font-weight: 200;
   letter-spacing: 0.05em;
   color: #efdab9;
