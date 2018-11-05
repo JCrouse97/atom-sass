@@ -2,11 +2,18 @@
 
 footer{
   width: 100vw;
+  padding: 205px 0px;
   @include basic-flex(center, center);
+  border-top: 1px solid #1a191a;
+
+  background: url("media/imgs/atom-rocket.svg") no-repeat #2c2a2b;
+  background-position: calc(50% + 380px) 60px;
+
 
   #footer-content{
     width: $content-width;
     @include basic-flex(center, center);
+
 
     #footer-content-left{
 

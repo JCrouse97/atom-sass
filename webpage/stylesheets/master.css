@@ -355,10 +355,14 @@ header #header-content #header-content-right ul li img {
 
 footer {
   width: 100vw;
+  padding: 205px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  border-top: 1px solid #1a191a;
+  background: url("media/imgs/atom-rocket.svg") no-repeat #2c2a2b;
+  background-position: calc(50% + 380px) 60px;
 }
 
 footer #footer-content {
