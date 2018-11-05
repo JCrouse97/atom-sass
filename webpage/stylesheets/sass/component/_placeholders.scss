@@ -4,3 +4,12 @@
   cursor: pointer;
   user-select: none;
 }
+
+%button{
+  width: fit-content;
+  color: $body-Color;
+  font-weight: 500;
+  padding: 12px 16px;
+  background-color: $atom-yellow;
+  border-radius: $button-border-radius;
+}

@@ -4,8 +4,14 @@
 @import "helpers/reset";
 @import "helpers/typography";
 
+@import "component/vars";
+@import "component/mixins";
 @import "component/placeholders";
 @import "component/header";
+@import "component/hero";
+@import "component/sub-hero";
+@import "component/footer";
+@import "component/sub-footer";
 
 
 // --- MASTER CONTROLS ---
@@ -16,7 +22,33 @@ body{
 
   font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
   font-size: 100%;
-  color: #efeae1;
+  color: $body-text-color;
 
-  background-color: #333233;
+  background-color: $body-Color;
+
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+h2{
+  font-size: 1.9em;
+  font-weight: 200;
+  letter-spacing: 0.05em;
+  color: $atom-tan;
+}
+
+p{
+  width: 350px;
+  color: $atom-tan;
+  word-spacing: 0.1em;
+  line-height: 1.45em;
+  letter-spacing: 0.02em;
+  margin: 16px 0px;
 }

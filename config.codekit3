@@ -107,11 +107,58 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/webpage/stylesheets/media/imgs/.temp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/webpage/stylesheets/media/imgs/.temp",
+		"oF": 0
+		},
 	"/webpage/stylesheets/media/imgs/atom-door-icon.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/webpage/stylesheets/media/imgs/atom-door-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/atom-logo-text.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/atom-logo-text.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/atom-rocket.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/atom-rocket.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/download-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/download-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/with-love-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/with-love-logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -123,6 +170,19 @@
 		"oA": 0,
 		"oAP": "/webpage/stylesheets/media/vids/.temp",
 		"oF": 0
+		},
+	"/webpage/stylesheets/sass/component/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/webpage/stylesheets/sass/component/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"/webpage/stylesheets/sass/component/_header.scss": {
 		"aP": 0,
@@ -137,6 +197,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/webpage/stylesheets/sass/component/_hero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/webpage/stylesheets/sass/component/_hero.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/webpage/stylesheets/sass/component/_mixins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/webpage/stylesheets/sass/component/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/webpage/stylesheets/sass/component/_placeholders.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -146,6 +232,45 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/webpage/stylesheets/sass/component/_placeholders.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/webpage/stylesheets/sass/component/_sub-footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/webpage/stylesheets/sass/component/_sub-footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/webpage/stylesheets/sass/component/_sub-hero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/webpage/stylesheets/sass/component/_sub-hero.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/webpage/stylesheets/sass/component/_vars.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/webpage/stylesheets/sass/component/_vars.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

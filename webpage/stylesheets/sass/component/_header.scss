@@ -18,7 +18,7 @@ header{
   font-size: 0.89em;
 
   #header-content{
-    width:865px;
+    width: $content-width;
     height: 100%;
 
     display: flex;
