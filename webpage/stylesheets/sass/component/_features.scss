@@ -2,8 +2,12 @@
 
 #feature-1{
   width: 100vw;
+  padding: 115px 0px;
   @include basic-flex(center, center);
   margin: 50px 0px;
+
+  background: url('media/imgs/teletype-bckr.svg') no-repeat;
+  background-position: calc(50% + 1000px);
 
   #feature-1-img{
     width: 50%;
