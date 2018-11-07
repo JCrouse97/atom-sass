@@ -10,6 +10,8 @@
 @import "component/header";
 @import "component/hero";
 @import "component/sub-hero";
+@import "component/features";
+@import "component/sub-features";
 @import "component/footer";
 @import "component/sub-footer";
 
@@ -45,10 +47,17 @@ h2{
 }
 
 p{
-  width: 350px;
+  width: 351px;
   color: $atom-tan;
   word-spacing: 0.1em;
   line-height: 1.45em;
   letter-spacing: 0.02em;
   margin: 16px 0px;
+}
+
+h4{
+  color: $atom-tan;
+  font-size: 1.2em;
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
