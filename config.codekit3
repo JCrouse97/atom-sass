@@ -165,6 +165,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/webpage/stylesheets/media/imgs/sf10.png": {
+		"ft": 32768,
+		"iS": 5447,
+		"oA": 0,
+		"oAP": "/webpage/stylesheets/media/imgs/sf10.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/webpage/stylesheets/media/imgs/sf2.png": {
 		"ft": 32768,
 		"iS": 6066,
@@ -214,6 +225,39 @@
 		"iS": 6071,
 		"oA": 0,
 		"oAP": "/webpage/stylesheets/media/imgs/sf6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/webpage/stylesheets/media/imgs/sf7.png": {
+		"ft": 32768,
+		"iS": 5972,
+		"oA": 0,
+		"oAP": "/webpage/stylesheets/media/imgs/sf7.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/webpage/stylesheets/media/imgs/sf8.png": {
+		"ft": 32768,
+		"iS": 6471,
+		"oA": 0,
+		"oAP": "/webpage/stylesheets/media/imgs/sf8.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/webpage/stylesheets/media/imgs/sf9.png": {
+		"ft": 32768,
+		"iS": 6923,
+		"oA": 0,
+		"oAP": "/webpage/stylesheets/media/imgs/sf9.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
