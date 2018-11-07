@@ -94,13 +94,22 @@ header #header-content #header-content-left ul li, header #header-content #heade
   user-select: none;
 }
 
-footer #footer-content #footer-content-left div {
+#feature-1 #feature-1-info div, footer #footer-content #footer-content-left div {
   width: fit-content;
   color: #333233;
   font-weight: 500;
+  letter-spacing: 0.02em;
   padding: 12px 16px;
   background-color: #FED153;
   border-radius: 5px;
+}
+
+#feature-1 #feature-1-info a, #sub-features #sub-features-content a {
+  color: #FED153;
+}
+
+#feature-1 #feature-1-info a:hover, #sub-features #sub-features-content a:hover {
+  color: #EBAB00;
 }
 
 header {
@@ -362,6 +371,54 @@ header #header-content #header-content-right ul li img {
   color: #EBAB00;
 }
 
+#feature-1 {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 50px 0px;
+}
+
+#feature-1 #feature-1-img {
+  width: 50%;
+}
+
+#feature-1 #feature-1-img img {
+  position: relative;
+  left: -100px;
+  width: 780px;
+  height: 488px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+  filter: brightness(0.75) contrast(1) sepia(0.7) hue-rotate(-5deg) saturate(3);
+  transition: filter 2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  border-radius: 5px;
+}
+
+#feature-1 #feature-1-img img:hover {
+  filter: none;
+}
+
+#feature-1 #feature-1-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 410px;
+  width: 50%;
+  padding-left: 40px;
+}
+
+#feature-1 #feature-1-info div {
+  margin-top: 45px;
+}
+
+#feature-1 #feature-1-info div:hover {
+  background-color: #EBAB00;
+}
+
 #sub-features {
   width: 100vw;
   padding: 210px 0px;
@@ -377,14 +434,6 @@ header #header-content #header-content-right ul li img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-#sub-features #sub-features-content a {
-  color: #FED153;
-}
-
-#sub-features #sub-features-content a:hover {
-  color: #EBAB00;
 }
 
 #sub-features #sub-features-content #sub-features-expectations {
@@ -648,7 +697,7 @@ h2 {
 }
 
 p {
-  width: 350px;
+  width: 351px;
   color: #efdab9;
   word-spacing: 0.1em;
   line-height: 1.45em;
