@@ -1,10 +1,6 @@
 // ***FEATURES PARTIAL***
 
 #feature-1{
-  width: 100vw;
-  padding: 115px 0px;
-  @include basic-flex(center, center);
-  margin: 50px 0px;
 
   background: url('media/imgs/teletype-bckr.svg') no-repeat;
   background-position: calc(50% + 1000px);
@@ -13,40 +9,81 @@
     width: 50%;
 
     img{
-      position: relative;
-      left: -100px;
-      width: 780px;
-      height: 488px;
-      box-shadow: 0 20px 30px rgba(0,0,0,0.5);
       filter: brightness(0.75) contrast(1) sepia(0.7) hue-rotate(-5deg) saturate(3.0);
-      transition: filter 2s;
-      transition-timing-function: ease;
-      transition-delay: 0s;
-
-      border-radius: $button-border-radius;
 
       &:hover{
        filter: none;
-      }
-
+     } //hover
     } //img
   } //feature-1-img
 
   #feature-1-info{
-    @include basic-flex(space-around, flex-start, column)
-    height: 410px;
-    width: 50%;
     padding-left: 40px;
 
-    @extend %text-link;
-
-    div{
-      margin-top: 45px;
-      @extend %button;
-
-      &:hover{
-        background-color: $hover-color;
-      }
-    } //div
   } //feature-1-info
 } //feature-1
+
+#feature-3{
+
+  background: url('media/imgs/github-bckr.svg') no-repeat;
+  background-position: calc(50% + 550px;);
+
+  #feature-3-img{
+    width: 50%;
+
+    img{
+      filter: brightness(0.7) contrast(1) sepia(1) hue-rotate(115deg) saturate(1);
+
+      &:hover{
+       filter: none;
+     } //hover
+    } //img
+  } //feature-1-img
+
+  #feature-3-info{
+    padding-left: 40px;
+
+    p{
+      width: 360px;
+    } //p
+  } //feature-1-info
+} //feature-1
+
+// ***FEATURES CLASSES***
+
+.feature-container{
+  width: 100vw;
+  padding: 115px 0px;
+  margin: 50px 0px;
+  @include basic-flex(center, center);
+}
+
+.feature-img{
+  position: relative;
+  left: -100px;
+  width: 780px;
+  height: 488px;
+  box-shadow: 0 20px 30px rgba(0,0,0,0.5);
+
+  transition: filter 2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+
+  border-radius: $button-border-radius;
+}
+
+.feature-info{
+  @include basic-flex(space-around, flex-start, column)
+  height: 410px;
+  width: 50%;
+  @extend %text-link;
+
+  div{
+    margin-top: 45px;
+    @extend %button;
+
+    &:hover{
+      background-color: $hover-color;
+    }
+  } //div
+}

@@ -94,7 +94,7 @@ header #header-content #header-content-left ul li, header #header-content #heade
   user-select: none;
 }
 
-#feature-1 #feature-1-info div, footer #footer-content #footer-content-left div {
+.feature-info div, footer #footer-content #footer-content-left div {
   width: fit-content;
   color: #333233;
   font-weight: 500;
@@ -104,11 +104,11 @@ header #header-content #header-content-left ul li, header #header-content #heade
   border-radius: 5px;
 }
 
-#feature-1 #feature-1-info a, #sub-features #sub-features-content a {
+.feature-info a, #sub-features #sub-features-content a {
   color: #FED153;
 }
 
-#feature-1 #feature-1-info a:hover, #sub-features #sub-features-content a:hover {
+.feature-info a:hover, #sub-features #sub-features-content a:hover {
   color: #EBAB00;
 }
 
@@ -372,13 +372,6 @@ header #header-content #header-content-right ul li img {
 }
 
 #feature-1 {
-  width: 100vw;
-  padding: 115px 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  margin: 50px 0px;
   background: url("media/imgs/teletype-bckr.svg") no-repeat;
   background-position: calc(50% + 1000px);
 }
@@ -388,16 +381,7 @@ header #header-content #header-content-right ul li img {
 }
 
 #feature-1 #feature-1-img img {
-  position: relative;
-  left: -100px;
-  width: 780px;
-  height: 488px;
-  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
   filter: brightness(0.75) contrast(1) sepia(0.7) hue-rotate(-5deg) saturate(3);
-  transition: filter 2s;
-  transition-timing-function: ease;
-  transition-delay: 0s;
-  border-radius: 5px;
 }
 
 #feature-1 #feature-1-img img:hover {
@@ -405,20 +389,70 @@ header #header-content #header-content-right ul li img {
 }
 
 #feature-1 #feature-1-info {
+  padding-left: 40px;
+}
+
+#feature-3 {
+  background: url("media/imgs/github-bckr.svg") no-repeat;
+  background-position: calc(50% + 550px);
+}
+
+#feature-3 #feature-3-img {
+  width: 50%;
+}
+
+#feature-3 #feature-3-img img {
+  filter: brightness(0.7) contrast(1) sepia(1) hue-rotate(115deg) saturate(1);
+}
+
+#feature-3 #feature-3-img img:hover {
+  filter: none;
+}
+
+#feature-3 #feature-3-info {
+  padding-left: 40px;
+}
+
+#feature-3 #feature-3-info p {
+  width: 360px;
+}
+
+.feature-container {
+  width: 100vw;
+  padding: 115px 0px;
+  margin: 50px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.feature-img {
+  position: relative;
+  left: -100px;
+  width: 780px;
+  height: 488px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+  transition: filter 2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  border-radius: 5px;
+}
+
+.feature-info {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
   flex-direction: column;
   height: 410px;
   width: 50%;
-  padding-left: 40px;
 }
 
-#feature-1 #feature-1-info div {
+.feature-info div {
   margin-top: 45px;
 }
 
-#feature-1 #feature-1-info div:hover {
+.feature-info div:hover {
   background-color: #EBAB00;
 }
 
