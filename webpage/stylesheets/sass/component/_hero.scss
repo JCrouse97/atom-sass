@@ -9,7 +9,7 @@
 
   #hero-content{
     width: $content-width;
-    padding-right: 120px;
+    padding-right: 85px;
     padding-top: 30px;
 
     #hero-content-top{
@@ -21,7 +21,7 @@
 
       #hero-content-top-ul{
         width: 228px;
-        margin-left: 50px;
+        margin-left: 40px;
 
         ul{
           height: 350px;
@@ -112,7 +112,7 @@
 
       ul{
         width: 100%;
-        margin-top: 40px;
+        margin-top: 20px;
         @include basic-flex(center, center);
 
         li{
