@@ -186,6 +186,8 @@ header #header-content #header-content-right ul li img {
 
 #hero #hero-content {
   width: 860px;
+  padding-right: 120px;
+  padding-top: 30px;
 }
 
 #hero #hero-content #hero-content-top {
@@ -198,8 +200,122 @@ header #header-content #header-content-right ul li img {
 
 #hero #hero-content #hero-content-top #hero-content-top-ani {
   width: 582px;
+  height: 520px;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ani #octocat {
+  position: relative;
+  float: left;
+  top: 60px;
+  left: -30px;
+  animation: bob 2.5s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ani #hero-circles {
   height: 500px;
-  background-color: #2b2a2b;
+  width: auto;
+  position: relative;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ani #hero-circles img {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ani #hero-circles img:nth-child(1) {
+  animation-name: rotate;
+  animation-duration: 120s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ani #hero-circles img:nth-child(2) {
+  animation-name: rotate;
+  animation-duration: 110s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ani #hero-circles img:nth-child(3) {
+  animation-name: rotate;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ani #hero-circles img:nth-child(4) {
+  animation-name: rotate;
+  animation-duration: 90s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ani #hero-circles img:nth-child(5) {
+  animation-name: rotate;
+  animation-duration: 80s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ani #hero-circles img:nth-child(6) {
+  animation-name: rotate;
+  animation-duration: 70s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ani #hero-circles img:nth-child(7) {
+  animation-name: rotate;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ani #hero-circles img:nth-child(8) {
+  animation-name: rotate;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ani #hero-circles img:nth-child(9) {
+  animation-name: rotate;
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ani #hero-circles img:nth-child(10) {
+  animation-name: rotate;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rotate {
+  0% {
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes bob {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(16px);
+  }
 }
 
 #hero #hero-content #hero-content-top #hero-content-top-ul {
@@ -331,7 +447,7 @@ header #header-content #header-content-right ul li img {
 
 #sub-hero #sub-hero-content {
   width: 860px;
-  margin-top: 130px;
+  margin-top: 40px;
   display: flex;
   justify-content: center;
   align-items: center;

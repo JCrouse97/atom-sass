@@ -6,7 +6,7 @@
 
   #sub-hero-content{
     width: $content-width;
-    margin-top: 130px;
+    margin-top: 40px;
     @include basic-flex(center, center, column);
 
     h1{

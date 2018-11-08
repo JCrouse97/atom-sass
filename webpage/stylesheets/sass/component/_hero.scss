@@ -9,16 +9,15 @@
 
   #hero-content{
     width: $content-width;
+    padding-right: 120px;
+    padding-top: 30px;
 
     #hero-content-top{
       width: 100%;
       @include basic-flex(space-between, center);
 
-      #hero-content-top-ani{
-        width:  582px;
-        height: 500px;
-        background-color: darken($body-Color, 3%);
-      }
+      //inline sass ani partial
+      @import "hero-ani";
 
       #hero-content-top-ul{
         width: 228px;
