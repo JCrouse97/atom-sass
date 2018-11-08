@@ -15,3 +15,10 @@
   background-position: left top;
   background-size: 48px 46px;
 }
+
+@mixin ani-loop($time, $iteration: infinite, $time-func: linear){
+  animation-name: rotate;
+  animation-duration: $time;
+  animation-iteration-count: $iteration;
+  animation-timing-function: $time-func;
+}

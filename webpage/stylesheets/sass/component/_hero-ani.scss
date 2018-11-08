@@ -2,6 +2,82 @@
 
 #hero-content-top-ani{
   width:  582px;
-  height: 500px;
-  background-color: red;
+  height: 520px;
+
+  #octocat{
+      position: relative;
+      float: left;
+      top: 60px;
+      left: -30px;
+      animation: bob 2.5s infinite;
+      animation-direction: alternate;
+      animation-timing-function: ease-in-out;
+  }
+
+  #hero-circles{
+    height: 500px;
+    width: auto;
+    position: relative;
+    img{
+      position: absolute;
+      top: 50%;
+      left: 60%;
+      transform: translate(-50%, -50%);
+
+      &:nth-child(1){
+        @include ani-loop(120s);
+      }
+      &:nth-child(2){
+        @include ani-loop(110s);
+      }
+      &:nth-child(3){
+        @include ani-loop(100s);
+      }
+      &:nth-child(4){
+        @include ani-loop(90s);
+      }
+      &:nth-child(5){
+        @include ani-loop(80s);
+      }
+      &:nth-child(6){
+        @include ani-loop(70s);
+      }
+      &:nth-child(7){
+        @include ani-loop(60s);
+      }
+      &:nth-child(8){
+        @include ani-loop(50s);
+      }
+      &:nth-child(9){
+        @include ani-loop(40s);
+      }
+      &:nth-child(10){
+        @include ani-loop(30s);
+      }
+
+    } //img
+  } //hero-circles
+} //hero-content-top-ani
+
+// ANIMATION
+@keyframes rotate{
+  0%{
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100%{
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes bob{
+  0%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(16px);
+  }
 }
