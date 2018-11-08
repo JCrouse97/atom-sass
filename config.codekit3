@@ -114,6 +114,136 @@
 		"oAP": "/webpage/stylesheets/media/imgs/.temp",
 		"oF": 0
 		},
+	"/webpage/stylesheets/media/imgs/ani/center.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/ani/center.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/ani/layer1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/ani/layer1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/ani/layer10.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/ani/layer10.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/ani/layer11.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/ani/layer11.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/ani/layer2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/ani/layer2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/ani/layer3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/ani/layer3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/ani/layer4.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/ani/layer4.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/ani/layer5.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/ani/layer5.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/ani/layer6.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/ani/layer6.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/ani/layer7.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/ani/layer7.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/ani/layer8.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/ani/layer8.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/ani/layer9.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/ani/layer9.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/webpage/stylesheets/media/imgs/ani/octo-cat.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/ani/octo-cat.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/webpage/stylesheets/media/imgs/atom-door-icon.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -379,6 +509,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/webpage/stylesheets/sass/component/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/webpage/stylesheets/sass/component/_hero-ani.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/webpage/stylesheets/sass/component/_hero-ani.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
