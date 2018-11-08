@@ -3,12 +3,13 @@
 #hero-content-top-ani{
   width:  582px;
   height: 520px;
+  margin-right: 50px;
 
   #octocat{
       position: relative;
       float: left;
       top: 60px;
-      left: -30px;
+      left: -50px;
       animation: bob 2.5s infinite;
       animation-direction: alternate;
       animation-timing-function: ease-in-out;
